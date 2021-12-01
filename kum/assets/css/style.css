@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #A855F7;
+    --highlight-color: rgba(168, 85, 247, 0.4);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Util */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-1\/2 {
+    width: 50%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+/* ----- */
+
+/* Navbar */
+
+nav {
+    margin: 1%;
+    height: 5%;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    transition: .2s ease-in all;
+    padding: 2px;
+    font-weight: bold;
+    margin-right: 1.5em;
+}
+
+nav a:hover {
+    background-color: var(--highlight-color);
+    transition: .2s ease-in all;
+}
+
+nav>img {
+    height: 100%;
+    width: auto;
+    display: flex;
+    margin-right: 2em;
+}
+
+/* ----- */
+
+/* Content */
+
+.container {
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.img-big {
+    height: auto;
+    width: 75%;
+}
+
+/* ----- */
